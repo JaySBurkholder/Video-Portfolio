@@ -1,0 +1,176 @@
+
+/*  Telling html what to do */
+html{
+scroll-behavior: smooth; 
+}
+
+
+
+/* okay this image looks good until the javascript */
+/* javascript: when hover cursor over, have pages pop up */
+img {
+display: inline-flex;
+background-position: center;
+height: 95px;
+width: 70x;
+margin-left: 25px;
+}
+
+
+
+/*  Adjusting header 1 elements  */
+h1 {
+padding-left: 200px;
+background-position:center;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+font-size:35px;
+display: inline-flex;
+
+}
+    
+
+
+
+/*  Adjusting my navigation bar  */
+#nav-bar { 
+height: 100px;
+background-color: blue;
+color: white;
+display: flex ;
+justify-content: space-between;   
+padding-top: 5px; 
+}
+      
+
+
+/*  Adjusting navigation bar line elements  */
+#nav-bar ul li {
+display: inline;
+margin-left: 10px;
+margin-right: 10px;
+}
+        
+
+
+/*  Adjusting link elements on nav bar  */
+#nav-bar ul li a{
+color: white;
+text-decoration: none;
+font-family: 'Roboto', sans-serif;  
+}
+    
+
+    
+a.navbarbutton {
+display:inline-block;
+padding: 10px; 
+border: 2px solid #FFFFFF;
+margin: 10px;
+box-sizing: border-box;
+text-decoration:none;
+text-transform:uppercase;
+font-family:'Roboto',sans-serif;
+font-weight:400;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.15s;
+}
+
+
+
+a.navbarbutton:hover{
+color:#CCCCCC;
+border-color:#CCCCCC;
+}
+
+
+
+a.navbarbutton:active{
+color:#BBBBBB;
+border-color:#BBBBBB;  
+}
+
+
+
+
+/* Need a color pallete that looks good with this blue for the whole page */
+#About-Me {
+height: 500px;
+background-color: bisque;
+display: flex;
+justify-content: space-between;
+font-family: 'Roboto', sans-serif;
+}    
+
+
+#About-Me h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 30px;
+padding-right: 50px;
+}
+    
+    
+
+/* Find way to split up paragraphs and keep formatting */
+#About-Me p {
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px black;
+height: fit-content;
+padding-left: 50px;
+}
+    
+    
+
+#Projects {
+background-color: aquamarine;
+display: flex;
+justify-content: space-between;
+font-family: 'Roboto', sans-serif;  
+}
+    
+
+
+#Projects h2 {
+width: fit-content;
+height: fit-content;
+padding-left: 50px;
+padding-right: 25px;
+font-family: 'Roboto', sans-serif;  
+}
+        
+
+
+#Project-Container{
+display: flex;
+flex-wrap: wrap;
+width: 70%;
+padding-right: 30px;
+border-left: solid 2px black;
+padding-left: 50px;
+font-family: 'Roboto', sans-serif;
+}
+    
+
+
+#featured-project{
+width: 100%;         
+}
+    
+
+
+.project-card{
+width: 50%;
+padding-top: 50px;  
+}
+    
+    
+
+#Contact-Me {
+height: 700px;
+background-color: darkmagenta;
+font-family: 'Roboto', sans-serif;  
+}
+    
